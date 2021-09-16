@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#5bc276" Padding="24" CornerRadius="0">
+            <Label Text="Practica 1" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Botón" FontSize="Title" Padding="30,10,30,10"/>
+        <Label Text="Picale a botón" FontSize="16" Padding="30,0,30,0" />
+        
+        <Label x:Name="contador" Text="0" FontSize="20" Padding="30,24,30,0" HorizontalTextAlignment="Center" Margin="10">
+        </Label>
+        <Button
+                Text="Incrementar"
+                BorderRadius="10"
+                Clicked="aumento"        
+                HeightRequest="100">
+        </Button>
+
+    </StackLayout>
+
+</ContentPage>
